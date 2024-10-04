@@ -1,12 +1,12 @@
-package nhl.repository;
+package com.nhl.repository;
 
-import nhl.model.Coupon;
+import com.nhl.model.Coupon;
 
 import java.util.List;
 
 public class CouponRepository {
 
-    public List<Coupon> getByIds(int... ids) {
+    public List<Coupon> getByIds(List<Integer> couponIds) {
         return null;
     }
 
