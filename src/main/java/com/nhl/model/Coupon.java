@@ -15,4 +15,11 @@ public class Coupon {
     public void setSalePercentage(int salePercentage) {
         this.salePercentage = salePercentage;
     }
+
+    @Override
+    public String toString() {
+        return "Coupon{" +
+                "salePercentage=" + salePercentage +
+                '}';
+    }
 }

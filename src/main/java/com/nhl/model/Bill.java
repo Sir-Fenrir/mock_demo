@@ -28,4 +28,12 @@ public class Bill {
         return totalPrice;
     }
 
+    @Override
+    public String toString() {
+        return "Bill{" +
+                "products=" + products +
+                ", coupons=" + coupons +
+                ", totalPrice=" + totalPrice +
+                '}';
+    }
 }
